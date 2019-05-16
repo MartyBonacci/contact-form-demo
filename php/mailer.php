@@ -52,7 +52,7 @@ try {
 	 * Attach the actual content for the email.
 	 **/
 	$emailObject->addContent("text/plain", $message);
-	var_dump($emailObject);
+//	var_dump($emailObject);
 	/**
 	 * using the sendgrid object from above call the send method and use the emailObject as an argument.
 	 */
