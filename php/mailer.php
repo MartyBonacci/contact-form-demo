@@ -57,7 +57,7 @@ try {
 	 * using the sendgrid object from above call the send method and use the emailObject as an argument.
 	 */
 	$response = $sendgrid->send($emailObject);
-	var_dump($response);
+//	var_dump($response);
 	// report a successful send!
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
 } catch(\Exception $exception) {
